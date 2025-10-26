@@ -31,7 +31,7 @@ Download and install these in order:
 ### Step 2: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/attendance-tracker.git
+git clone https://github.com/yourusername/attendance-tracker.git](https://github.com/Meet1394/Attendance-Markee.git
 cd attendance-tracker
 ```
 
@@ -66,7 +66,7 @@ cd attendance-tracker
 
 ```bash
 # Navigate to backend folder
-cd backend
+cd AttendanceTracker
 
 # Restore packages
 dotnet restore
@@ -85,7 +85,7 @@ Open a **NEW terminal** (keep backend running), then:
 
 ```bash
 # Navigate to frontend folder
-cd frontend
+cd  attendance-frontend
 
 # Install dependencies
 npm install
@@ -105,28 +105,6 @@ Open browser and go to: **http://localhost:5173**
 Use these credentials:
 - **Email:** `teacher@school.com`
 - **Password:** `teacher123`
-
----
-
-## 📁 Project Structure
-
-```
-attendance-tracker/
-├── backend/                    # .NET API
-│   ├── Controllers/           # API endpoints
-│   ├── Services/             # Business logic
-│   ├── Models/               # Data models
-│   ├── appsettings.json     # Database config
-│   └── Program.cs
-├── frontend/                  # React App
-│   ├── src/
-│   │   ├── App.jsx          # Main component
-│   │   ├── App.css
-│   │   └── index.css
-│   └── package.json
-├── attendance_db.sql         # Database file (IMPORT THIS)
-└── README.md
-```
 
 ---
 
@@ -155,7 +133,7 @@ attendance-tracker/
 
 ### Frontend Configuration
 
-**File:** `frontend/src/App.jsx`
+**File:** `attendance-tracker/src/App.jsx`
 
 ```javascript
 const API_URL = 'http://localhost:5000/api';
@@ -187,49 +165,6 @@ Make sure this matches your backend URL.
 
 ---
 
-## 🐛 Common Issues & Solutions
-
-### ❌ Backend Error: "Unable to connect to MySQL"
-**Solution:**
-1. Make sure XAMPP MySQL is running (green in control panel)
-2. Check `appsettings.json` connection string
-3. Test by opening phpMyAdmin: http://localhost/phpmyadmin
-
-### ❌ Frontend Error: "Failed to fetch" or "Network Error"
-**Solution:**
-1. Make sure backend is running on port 5000
-2. Check `API_URL` in `frontend/src/App.jsx`
-3. Restart backend: `dotnet run`
-
-### ❌ Can't Access phpMyAdmin
-**Solution:**
-1. Make sure Apache is running in XAMPP (green status)
-2. Try: http://localhost/phpmyadmin
-3. If port 80 is blocked, change Apache port to 8080 in XAMPP config
-
-### ❌ Port Already in Use
-**Solution:**
-
-**For Backend (Port 5000):**
-```bash
-# Windows
-netstat -ano | findstr :5000
-taskkill /PID <PID> /F
-
-# Linux/Mac
-lsof -ti:5000 | xargs kill -9
-```
-
-**For Frontend (Port 5173):**
-- Just close the other terminal or browser tab
-
-### ❌ Tables Not Found
-**Solution:**
-1. Re-import `attendance_db.sql` in phpMyAdmin
-2. Make sure database name is exactly `attendance_db`
-3. Verify 3 tables exist: teachers, students, attendance
-
----
 
 ## 🔑 Demo Accounts
 
@@ -292,26 +227,27 @@ All endpoints (except login) require JWT token in Authorization header.
 ### Start Development
 ```bash
 # Terminal 1 - Backend
-cd backend
+cd AttendanceTracker
 dotnet watch run
 
 # Terminal 2 - Frontend  
-cd frontend
+cd attendance-frontend
 npm run dev
 ```
 
 ### Build for Production
 ```bash
 # Backend
-cd backend
+cd AttendanceTracker
 dotnet publish -c Release
 
 # Frontend
-cd frontend
+cd attendance-frontend
 npm run build
 ```
 
 ---
+Note: You have To Click On Split Terminal If You Are Using VS Code and Then run backend and frontend Simultaneously 
 
 ## 📦 What's Included
 
