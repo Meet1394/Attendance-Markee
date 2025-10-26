@@ -264,13 +264,13 @@ Note: You have To Click On Split Terminal If You Are Using VS Code and Then run 
 ![Login](https://github.com/Meet1394/Attendance-Markee/blob/2c3a772b198a638bfe7bdfa2cd39f5e552693def/ss/Login%20Page.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](https://github.com/Meet1394/Attendance-Markee/blob/91f301e5e5533e21f3ebbe1230d20f0054a0a14b/ss/DashBoard.png)
 
 ### Mark Attendance
-![Attendance](screenshots/attendance.png)
+![Attendance](https://github.com/Meet1394/Attendance-Markee/blob/91f301e5e5533e21f3ebbe1230d20f0054a0a14b/ss/Mark%20Attendance%20.png)
 
 ### Student Management
-![Students](screenshots/students.png)
+![Students](https://github.com/Meet1394/Attendance-Markee/blob/91f301e5e5533e21f3ebbe1230d20f0054a0a14b/ss/AlL%20Students.png)
 
 *(Add screenshots in a `screenshots` folder in your repo)*
 
