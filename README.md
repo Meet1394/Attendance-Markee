@@ -131,17 +131,6 @@ Use these credentials:
 - Username: `root`
 - Password: (empty/blank)
 
-### Frontend Configuration
-
-**File:** `attendance-tracker/src/App.jsx`
-
-```javascript
-const API_URL = 'http://localhost:5000/api';
-```
-
-Make sure this matches your backend URL.
-
----
 
 ## 🎯 How to Use
 
