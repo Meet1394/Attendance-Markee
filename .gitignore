@@ -1,0 +1,15 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+
+# React
+attendance-frontend/node_modules/
+attendance-frontend/build/
+attendance-frontend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
