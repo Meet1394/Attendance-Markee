@@ -261,7 +261,7 @@ Note: You have To Click On Split Terminal If You Are Using VS Code and Then run 
 ## 📸 Screenshots
 
 ### Login Page
-![Login](screenshots/login.png)
+![Login](https://github.com/Meet1394/Attendance-Markee/blob/2c3a772b198a638bfe7bdfa2cd39f5e552693def/ss/Login%20Page.png)
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
