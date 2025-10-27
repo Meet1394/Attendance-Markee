@@ -247,16 +247,7 @@ Note: You have To Click On Split Terminal If You Are Using VS Code and Then run 
 ✅ Sample attendance records  
 ✅ All features working out of the box  
 
----
 
-## 🚨 Important Notes
-
-⚠️ **XAMPP is for development only** - Don't use in production  
-⚠️ **Change default passwords** before deploying  
-⚠️ **Set MySQL password** in XAMPP for better security  
-⚠️ **Keep XAMPP services running** while developing  
-
----
 
 ## 📸 Screenshots
 
